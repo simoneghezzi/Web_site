@@ -1,0 +1,94 @@
+
+
+/* Stile generale del corpo */
+body 
+	{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+	}
+
+/* Stile per l'intestazione */
+h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+	}
+
+/* Stile per il paragrafo */
+p 	{
+        font-size: 18px;
+        margin-bottom: 20px;
+	}
+
+/* Stile per la figura (immagine e didascalia) */
+figure 
+	{
+    	margin: 20px auto;
+    	max-width: 320px;
+	}
+
+img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+	}
+
+figcaption 
+	{
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+	}
+
+.large-caption {
+    font-size: 20px;
+}
+
+/* Stile per il form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {background-color: #175e28}
+
+
+
+/* Stile per la linea di divisione */
+hr 	{
+        border: 0;
+        height: 1px;
+        background: #007bff;
+        margin: 40px 0;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+	}
+

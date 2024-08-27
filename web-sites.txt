@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML per i bimbi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Collegamento al file CSS -->
+</head>
+<body>
+
+    <h1>qui metti il titolo</h1>
+    <h2>sottotitolo</h2>
+
+    <p>ricordatevi di chiudere i tags, scrivi subito opening e closing e poi ci metti dentro il contenuto</p>
+
+	<!-- This is a comment -->
+
+	<ol>
+		<li>uno</li>
+		<li>due</li>
+	</ol>
+
+
+	<a href = >
+
+
+
+	<script src="scripts.js"></script> <!-- Collegamento al file JavaScript -->
+
+</body>
+</html>
+
+
+html is about content
+css about formatting
+javascript to do things with the DOM
+
+DOM è una struttura ad albero della pagina, dove ogni nodo=element è un tag, e dove puoi cercalo per nome (id), per tipo(p, div) o per (tipo e) posizione, i.e. il secondo p in questo div.
+
+
+chiudere il tag <p> </p>, img è speciale <img src="img.jpg">, <br>
+focus on the important tags only
+css per formattare, non per risparmiare tempo; html solo per il contenuto
+	cascading si riferisce alla gerarchia del DOM, se formatti il body, tutto il body è così
+javascript per andare oltre, ma soprattutto per mandare dati dall'utente al server 
+
+tree structure (tabs)
+
+tags:
+h1, h2, p, br, pre, a, img, lists: ul, ol, li
+
+div è una sezione della pagina, troppo generico e si usa poco oggi
+al suo posto si usano semantic tags di HTML5 che sono piu utili per capire la struttura della pagina: header, footer, section, nav, ecc.
+
+
+style veniva usato per formattare ma oggi si formatta in CSS; should not be used in the body, but only in the head (se si applica a una pagina) or in a separate file (se si applica a diverse pagine, file lo chiami style.css)
+<head>
+	<style>
+		body {background-color: powderblue;}
+		h1   {color: blue;}
+		p    {color: red;}
+	</style>
+</head>
+
+attributes:
+
+vengono sempre in forma key=value pairs, i.e. href = 'www.ciao.com', src = 'img.jpg'
+
+class is not a tag but a tag attribute, simile a function options, i.e. img src "img.jpg" class = "thumbnail"
+
+un altro attribute comune è id, un unique identifier per un elemento della pagina, facilita il trovarlo quando fai i.e. javascript e/o data analysis
+
+
+
+
+
+
+
